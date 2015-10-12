@@ -76,6 +76,12 @@
     <Compile Include="Cap11e5Form.Designer.cs">
       <DependentUpon>Cap11e5Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cap12e1Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cap12e1Form.Designer.cs">
+      <DependentUpon>Cap12e1Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Capitulos11y12.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cap11e5Form.resx">
       <DependentUpon>Cap11e5Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cap12e1Form.resx">
+      <DependentUpon>Cap12e1Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Capitulos11y12.resx">
       <DependentUpon>Capitulos11y12.cs</DependentUpon>

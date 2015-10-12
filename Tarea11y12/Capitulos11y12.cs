@@ -51,5 +51,12 @@ namespace Tarea11y12
 
             Cap115.Show();
         }
+
+        private void toolStripMenuItem5_Click(object sender, EventArgs e)
+        {
+            Cap12e1Form Cap121 = new Cap12e1Form();
+
+            Cap121.Show();
+        }
     }
 }
