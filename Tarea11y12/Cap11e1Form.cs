@@ -27,7 +27,7 @@ namespace Tarea11y12
             Datos = DatostextBox.Text;
 
             ms.Write(ASCIIEncoding.ASCII.GetBytes(Datos), 0, Datos.Length);
-            ms.Seek(0, SeekOrigin.Begin);
+            ms.Seek(-4, SeekOrigin.End);
 
             ms.Read(buffer, 0, Datos.Length);
 
